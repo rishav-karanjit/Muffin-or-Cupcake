@@ -18,5 +18,3 @@ ingredients = recipes[['Flour','Sugar']].values
 
 model = svm.SVC(kernel='linear')
 model.fit(ingredients, type_label)
-
-
