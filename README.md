@@ -2,8 +2,8 @@
 
 <li>To run the project: <br>
 <ol>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;pip install -r requirement.txt
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;python main.py
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<li>pip install -r requirement.txt
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<li>python main.py
 </ol>
 <li>This project uses SVM machine learning algorithm.
 <li>It is best for beginners who just started learing ML or wanting to learn about SVM
