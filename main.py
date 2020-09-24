@@ -8,6 +8,7 @@ import seaborn as sns; sns.set(font_scale=1.2)
 
 recipes = pd.read_csv("recipes_muffins_cupcakes.csv")
 
+## Uncomment code below to plot data in graph
 # sns.lmplot(x= 'Flour',y= 'Sugar',data=recipes, hue='Type', palette='Set1',fit_reg=False,scatter_kws={"s":70})
 # plt.show()
 
@@ -30,6 +31,8 @@ b = model.support_vectors_[-1]
 yy_up = a * xx +(b[1] - a * b[0])
 
 sns.lmplot(x='Flour',y='Sugar',data=recipes, hue='Type', palette='Set1',fit_reg=False,scatter_kws={"s":70})
+
+## Uncomment below data to show the hyperplane and margin in the graph
 # plt.plot(xx , yy, linewidth=2, color='black')
 # plt.plot(xx , yy_down, 'k--')
 # plt.plot(xx , yy_up, 'k--')
